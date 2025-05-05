@@ -1,0 +1,93 @@
+/* Body Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  /* Section Styles */
+#contentSection{
+    width:70%;
+    margin:0 auto; 
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Slides Styles */
+#slide{
+    padding:7em;
+    border-radius: 0.93em;
+    background-color: #E8F6F3;
+    transition: all;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+/* Slide Heading Styles */
+#slideHeading{
+    color: #2D7E73;
+    text-align: center;
+}
+/* Slide Content Styles */
+#slideContent{
+    color: #779898;
+    margin-top: 1.5em;
+}
+/* Slide Content items Styles */
+#slideContent li{
+    margin-bottom: 0.5em;
+}
+#slideContent li::marker{
+    color: #000000;
+}
+/* Button Styles */
+#nextBtn,#previousBtn{
+    color:#2D7E73;
+    font-size: 1.5em;
+    border:1px solid #779898 ;
+    padding:0.2em;
+    border-radius: 50%;
+}
+#nextBtn{
+    position:absolute;
+    bottom:10px;
+    right:20px;
+}
+#nextBtn:hover,#previousBtn:hover{
+    transform: scale(1.1);
+    background-color: #2D7E73;
+    color:white;
+}
+#previousBtn{
+    position:absolute;
+    bottom:10px;
+    right:60px;
+    display: none;
+}
+#gotoQuizBtn{
+    padding:1em;
+    background-color: #FF6347;
+    color:#FFFFFF;
+    border-radius:0.93em;
+    border:none;
+    position: absolute;
+    bottom:10px;
+    right:20px;
+    display: none;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2);
+    font-weight: 500;
+    font-weight: 2em;
+}
+#gotoQuizBtn:hover{
+    transform: scale(1.1);
+    color: #FF6347;
+    background-color:#FFFFFF;
+}
+/* Footer Styles */
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}

@@ -1,0 +1,15 @@
+/* Result Styles */
+#quizResult{
+    width:40em;
+    height: 20em;
+    background-color: #96b9b9;
+    padding: 2em;
+    border-radius: 1em;
+    color:#093B3B;
+    margin:5em auto;
+}
+#quizResult p{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}

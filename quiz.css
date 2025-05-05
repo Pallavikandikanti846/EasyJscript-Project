@@ -1,0 +1,76 @@
+/* Quiz Section Styles */
+#quizSection{
+    padding:1em;
+    min-height: 100vh;
+}
+/* Quiz Heading Styles */
+#quizHeading{
+  font-size: 2em;
+  padding-left:1em;
+}
+/* Quiz Slides Styles */
+#quizList{
+    display: flex;
+    justify-content: space-between;
+    gap:2em;
+    margin-top: 2em;
+}
+.quizzes{
+    background-color: rgba(19,110,97,0.2);
+    flex-basis: 33.33%;
+    border-radius: 0.75em;
+    padding:5em;
+    text-align: center;
+}
+/* Locked Quizzes Styles */
+.quizzesLocked{
+    background-color: rgba(176, 176, 176, 0.3);
+    flex-basis: 33.33%;
+    border-radius: 0.75em;
+    padding:5em;
+    text-align: center;
+    position:relative;
+}
+/* Quiz Title Styles */
+.quiz, .quizTitle{
+    color:#2D7E73;
+    margin-bottom: 2em;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.quizzesLocked .quiz, .quizzesLocked .quizTitle{
+    color: rgba(45, 126, 115, 0.5);
+}
+.quizzesLocked .quizStartBtn{
+    background-color: rgba(255, 99, 71, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+.quiz{
+    text-transform: uppercase;
+}
+/* Button Styles */
+.quizStartBtn{
+    background-color: #FF6347;
+    padding:1em;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 0.7em;
+    font-size: 1.1em;
+    font-weight: 500;
+    width:50%;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2);
+}
+.quizStartBtn:hover{
+    transform: scale(1.1);
+    background-color:#FFFFFF;
+    color:#FF6347;
+}
+/* Lock Icon Styles */
+.fa-lock{
+   position: absolute;
+   top:50%;
+   left:45%;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 3em;
+
+}

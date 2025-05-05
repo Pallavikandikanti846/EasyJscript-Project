@@ -1,0 +1,125 @@
+/* Universal Styles */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Body Styles */
+body{
+    font-family: "Poppins";
+}
+/* Header Styles */
+header{
+    background-color: #E8F6F3;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1em 4em 1em 4em;
+}
+/* Site Heading Styles */
+#heading{
+    font-size: 2em;
+    flex-basis:40%;
+    font-weight: 700;
+}
+/* Link Styles */
+#heading a{
+    text-decoration: none;
+    color:#2D7E73;
+}
+/* Navigation Styles */
+nav{
+    font-size: 1.2em;
+    font-weight: 600;
+    flex-basis: 30%;
+}
+/* Navigation Items Styles */
+#navItems{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#navItems li{
+    list-style: none;
+}
+#navItems li a {
+   text-decoration: none;
+   color:#779898;
+}
+#navItems li:hover {
+    transform: scale(1.2);
+    color:#093B3B;
+    font-weight: 700;
+ }
+ /* Main Section Styles */
+#mainSection{
+    background-color: #093B3B;
+    color:#FFFFFF;
+    width:80%;
+    border-radius: 1.25em;
+    margin:4em auto;
+    padding:6em 1.5em 6em 1.5em;
+}
+/* Section Content Styles */
+#sectionContent{
+    font-weight: 700;
+    text-align: center;
+}
+/* Section Main Header Styles */
+#secHeader{
+    font-size: 3.2em;
+    margin-bottom: 2em;
+}
+/* Section Sub Header Styles */
+#secSubHeader{
+    font-size: 1.625em;
+    margin-bottom: 1.5em;
+}
+#secSubHeader span{
+    color: #FF6347;
+}
+/* Button Styles */
+#getStartBtn{
+    background-color: #FF6347;
+    color:#FFFFFF;
+    padding:0.7em;
+    border-radius: 0.5em;
+    border:none;
+    font-size: 2em;
+    width:45%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 300px;
+    font-weight: 500;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2);
+    transition: all;
+}
+#getStartBtn:hover{
+    transform: scale(1.1);
+    background-color:#FFFFFF;
+    color:#FF6347;
+}
+.fa-arrow-right{
+    margin-left:1em;
+    font-size: 1em;
+}
+/* Footer Styles */
+#footerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #093B3B;
+    color:#779898;
+    padding:1.5em 6em 1.5em 15em;
+}
+#footerHeading{
+    font-size: 1.56em;
+    font-weight: 700;
+    flex-basis: 30%;
+}
+#copyright{
+    font-size: 1em;
+    font-weight: 600;
+    flex-basis: 40%;
+    text-align: center;
+}

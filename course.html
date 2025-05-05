@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyJscript - Courses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./course.css">
+    <script src="https://kit.fontawesome.com/088830f30f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header Section -->
+    <header>
+        <h2 id="heading"><a href="./index.html">EasyJscript</a></h2>
+        <!-- Navigation -->
+        <nav id="nav">
+          <ul id="navItems">
+              <li><a href="./course.html">Courses</a></li>
+              <li><a href="./quiz.html">Quizzes</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- main Section -->
+      <section id="courseSection">
+       <h2 id="courseHeading">Hey!! Welcome to the Course</h2>
+       <div id="courseList">
+        <div class="courses">
+            <h3 class="courseDay">Day-1</h3>
+            <p class="courseTitle">Arrays & Objects</p>
+            <input type="submit" class="courseStartBtn" value="Start Now">
+        </div>
+        <div class="coursesLocked">
+            <h3 class="courseDay">Day-2</h3>
+            <p class="courseTitle">Functions</p>
+            <input type="submit" class="courseStartBtn" value="Start Now" disabled>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="coursesLocked">
+            <h3 class="courseDay">Day-3</h3>
+            <p class="courseTitle">DOM</p>
+            <input type="submit" class="courseStartBtn" value="Start Now" disabled>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+       </div>
+      </section>
+      <footer>
+        <div id="footerDiv">
+          <h3 id="footerHeading">EasyJscript</h3>
+          <p id="copyright">&copy; 2025 EasyJscript. All Rights Reserved.</p>
+        </div>
+        <!-- Footer Section -->
+      </footer>
+      <!-- Javascript File -->
+      <script src="./arrayContent.js"></script>
+</body>
+</html>
